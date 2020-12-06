@@ -1,0 +1,35 @@
+#vue cli4版本与cli3版本部分功能不一致
+
+   【vue cli4版本卸载】
+   npm uninstall @vue/cli -g
+    【vue cli3版本卸载】
+   npm uninstall vue-cli -g
+   【安装vue 3.0.4版本】
+   npm install @vue/cli@3.0.4 -g
+
+
+# position:fixed 布局不在父元素中显示，在最外层窗口显示
+   【相对于父元素定位】
+
+
+#项目与github仓库连接
+
+
+#别名设置
+  【vue/cli3的别名设置】
+
+vue.config.js文件：
+
+      module.exports = {
+  configureWebpack: {
+    resolve: {
+      alias: {
+        'assets': '@/assets',
+        'common': '@/common',
+        'components': '@/components',
+        'network': '@/network',
+        'views': '@/views',
+               }
+                 }
+                                 }
+                                  }
